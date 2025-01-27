@@ -6,21 +6,13 @@ This solution implements a generic `FiniteStateMachine` class that can be used t
 
 The Jest test cases cover the creation of the FSM, the modThree function's correctness for various inputs (including edge cases and large numbers), and error handling for invalid inputs.
 
-You'll need to setup the env by running the command:
+You'll need to setup the env by installing the nodeJs and then by running the command:
 
 ```bash
 npm install
 ```
 
 To run these tests:
-
-```json
-"scripts": {
-  "test": "jest"
-}
-```
-
-You can now run the tests using:
 
 ```bash
 npm test
