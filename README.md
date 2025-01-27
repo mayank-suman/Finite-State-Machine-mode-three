@@ -1,6 +1,6 @@
 # Finite-State-Machine-mode-three
 
-The solution can be found `index.js` and tests are found in `index.test.js`.
+The solution can be found in `index.js` and tests are found in `index.test.js`.
 
 This solution implements a generic `FiniteStateMachine` class that can be used to create various FSMs. The `createModThreeFSM` function creates an FSM specifically for the mod-three problem. The `modThree` function uses this FSM to calculate the remainder when dividing the binary number by three.
 
