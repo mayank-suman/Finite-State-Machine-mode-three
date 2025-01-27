@@ -2,9 +2,14 @@
   "name": "nodemon-starter",
   "private": true,
   "scripts": {
-    "start": "node run.js"
+    "start": "node run.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
