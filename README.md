@@ -1,4 +1,4 @@
-# Finite-State-Machine-mode-three
+# Finite-State-Machine-mod-three
 
 The solution can be found in `index.js` and tests are found in `index.test.js`.
 
