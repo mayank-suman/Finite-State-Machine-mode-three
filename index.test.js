@@ -3,6 +3,7 @@ const { FiniteStateMachine, createModThreeFSM, modThree } = require('./index.js'
 describe('Finite State Machine', () => {
   test('should create a valid FSM', () => {
     const fsm = createModThreeFSM();
+    
     expect(fsm).toBeInstanceOf(FiniteStateMachine);
     expect(fsm.states).toEqual(['S0', 'S1', 'S2']);
     expect(fsm.alphabet).toEqual(['0', '1']);
@@ -12,6 +13,7 @@ describe('Finite State Machine', () => {
 
   test('should throw an error for invalid input', () => {
     const fsm = createModThreeFSM();
+
     expect(() => fsm.process('102')).toThrow('Invalid input symbol: 2');
   });
 });
